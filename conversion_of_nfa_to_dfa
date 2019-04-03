@@ -270,8 +270,8 @@ void copy(int i)
 
                                                                         			{
                                                                         				printf("move(%d,%c) : ",i,inp[j]);
-                                                                        				scanf("%d",&States[i].tranlist[j].tostates[k++]);
-                                                                        				if(States[i].tranlist[j].tostates[k-1]==-1)
+                                                                        				scanf("%d",&States[i].tranlist[j].tostates[k++]);      //here we  acccepting the " to state"  are
+                                                                        				if(States[i].tranlist[j].tostates[k-1]==-1)		//if the input here is -1 we switch to the next state transition 
 
 
                                                                             				{
